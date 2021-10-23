@@ -52,21 +52,24 @@ ul {
 
 }
 
-.navegacao-mobile {
-  background: rgb(255, 255, 255);
-  padding: 10px;
+.navegacao-mobile div{
+  width: 32px;
+  height: 2px;
+  background: #555;
+  margin: 8px;
+  transition: 0.3s;
   display: block;
-  width: 53px;
   cursor: pointer;
 }
-.linha-menu {
-  width: 25px;
-  height: 1px;
-  border-radius: 5px;
-  background: rgb(0, 0, 0);
-  margin: 6px;
-  display: block;
-}
+
+
+
+
+
+
+
+
+
 .input-menu-all {
   display: none!important;
 }
@@ -385,7 +388,7 @@ pre[class*="pre_"] {
 .token.number,
 .token.constant,
 .token.symbol {
-	 color: hsl(350, 40%, 70%);
+	 color: hsl(22, 45%, 64%);
 }
  
 .token.selector,
@@ -409,7 +412,7 @@ pre[class*="pre_"] {
 .token.atrule,
 .token.attr-value,
 .token.keyword {
-	 color: hsl(350, 40%, 70%);
+	 color: hsl(350, 60%, 58%);
 }
  
 .token.regex,
@@ -432,7 +435,24 @@ pre[class*="pre_"] {
 .token.deleted {
 	 color: red;
 }
- 
+
+.token.comments{
+  color: rgb(122, 122, 240);
+}
+
+.token.class{
+  color: rgb(248, 248, 74);
+}
+.token.name_class{
+  color: #e90;
+}
+.token_namediv{
+  color: #ba0aff;
+}
+.token.name_text{
+  color: aquamarine;
+}
+
 pre[class*="pre_"].line-numbers {
 	 position: relative;
 	 padding-left: 3.8em;
@@ -500,3 +520,119 @@ pre[class*="pre_"].line-numbers > code {
   margin-left: 2%;
   text-align: justify;
 }
+
+.codigo_area{
+  width: 50%;
+  margin-left: 25%;
+  text-align: center;
+}
+
+code[class*="pre_"],
+ pre[class*="pre_"] {
+	 color: white;
+	 background: none;
+	 text-shadow: 0 -.1em .2em black;
+	 font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+	 font-size: 1em;
+	 text-align: left;
+	 white-space: pre;
+	 word-spacing: normal;
+	 word-break: normal;
+	 word-wrap: normal;
+	 line-height: 1.5;
+ 
+	 -moz-tab-size: 4;
+	 -o-tab-size: 4;
+	 tab-size: 4;
+ 
+	 -webkit-hyphens: none;
+	 -moz-hyphens: none;
+	 -ms-hyphens: none;
+	 hyphens: none;
+}
+ 
+@media print {
+	 code[class*="pre_"],
+	 pre[class*="pre_"] {
+	  text-shadow: none;
+	}
+}
+ 
+pre[class*="pre_"],
+ :not(pre) > code[class*="pre_"] {
+	  background: hsl(30, 20%, 25%);
+}
+ 
+ /* Code blocks */
+pre[class*="pre_"] {
+	 padding: 1em;
+	 margin: .5em 0;
+	 overflow: auto;
+	 border: .3em solid hsl(30, 20%, 40%);
+	 border-radius: .5em;
+	 box-shadow: 1px 1px .5em black inset;
+}
+ 
+ /* Inline code */
+:not(pre) > code[class*="pre_"] {
+	 padding: .15em .2em .05em;
+	 border-radius: .3em;
+	 border: .13em solid hsl(30, 20%, 40%);
+	 box-shadow: 1px 1px .3em -.1em black inset;
+	 white-space: normal;
+}
+
+pre[class*="pre_"].numbers {
+	 position: relative;
+	 padding-left: 3.8em;
+	 counter-reset: linenumber;
+}
+ 
+pre[class*="pre_"].numbers > code {
+	 position: relative;
+	 white-space: inherit;
+}
+ 
+.line-numbers .numbers {
+	 position: absolute;
+	 pointer-events: none;
+	 top: 0;
+	 font-size: 100%;
+	 left: -3.8em;
+	 width: 3em; /* works for line-numbers below 1000 lines */
+	 letter-spacing: -1px;
+	 border-right: 1px solid #999;
+ 
+	 -webkit-user-select: none;
+	 -moz-user-select: none;
+	 -ms-user-select: none;
+	 user-select: none;
+ 
+}
+ 
+.numbers > span {
+	display: block;
+	counter-increment: linenumber;
+}
+ 
+.numbers > span:before {
+	content: counter(linenumber);
+	color: #999;
+	display: block;
+	padding-right: 0.8em;
+	text-align: right;
+}
+
+.tag-nozel01{
+  color: #545bc4;
+}
+.tag-nozel02{
+  color: #545bc4;
+}
+.tag-nozel03{
+  color: #2bccb6;
+}
+.tag-nozel04{
+  color: #b32e4b;
+}
+
