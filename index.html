@@ -115,8 +115,30 @@
             <p>Independentemente do editor utilizado, podemos simplesmente copiar o código da Listagem 1 para um deles e salvar 
                 o arquivo com extensão .html. Em seguida, podemos abrir esse arquivo em um browser.</p><br>
             </div>
-        <h1 class="nome00">Tags do HTML</h1>
+        <h1 class="nome00">Tags e atributos do HTML</h1>
         <div class="linha01 night-mode-available"></div>
+
+        <p class="pg4">Para começar vamos falar dos atriburos que são minoria comparados as Tags do HTML: </p>
+        <p class="pg4">Os atributos são usados na incorporação das tags,modificando sua estrutura ou
+        funcionalidade. Igualmente, os atributos são utilizados para atribuir uma classe ou id a um 
+        elemento.<br><br>
+
+        A maioria das tags tem seus próprios atributos. Contudo, existem alguns atributos genéricos que podem 
+        ser utilizados na maioria das tags HTML, vamos estudá-los: </p>
+
+        <ul>
+            <li><strong>class=”</strong>…<strong>“</strong> – Atribui uma classe ao elemento (uma classe pode ser utilizada para um ou mais elementos);</li>
+            <li><strong>id=”…</strong><strong>“</strong> – Atribui um id ao elemento (um id deve ser único, ou seja atribuído a um único elemento);</li>
+            <li><strong>style=”…”</strong> – Permite incluir elementos CSS (estilos) dentro da tag;</li>
+            <li><strong>lang=”…”</strong> – Define o idioma principal do elemento;</li>
+            <li><strong>title=”…”</strong> – Define o título do elemento;</li>
+            <li><strong>alt=”…”</strong> – Define um texto alternativo e, por isso, é muito utilizado em imagens, auxilia nas práticas de SEO;</li>
+            <li><strong>hidden</strong> – Oculta o elemento;</li>
+            <li><strong>align=”…”</strong> – Permite definir o padrão de alinhamento desse elemento, como por exemplo: right, center, left e justify;</li>
+            <li><strong>width=”…”</strong> – Define uma largura para o elemento;</li>
+            <li><strong>height=”…”</strong> – Define uma altura para o elemento.</li>
+        </ul>
+
         <p class="pg4">Vamos agora falar de alguams outras tags em HTML: </p>
         <p class="pg4">Para começar vamos falar da <strong><span>&lt;</span><span>h1</span><span>&gt;</span>,<span>&lt;</span><span>h2</span><span>&gt;</span>,<span>&lt;</span><span>h3</span><span>&gt;</span>,<span>&lt;</span><span>h4</span><span>&gt;</span>,<span>&lt;</span><span>h5</span><span>&gt;</span>,<span>&lt;</span><span>h6</span><span>&gt;</span></strong>, elas entram na body(ou seja o corpo da página), elas são responsaveis por fazer o titulo do corpo da pagina e são ordenadas por tamanho sendo <strong><span>&lt;</span><span>h1</span><span>&gt;</span></strong> a tag de maior tamanho e <strong><span>&lt;</span><span>h6</span><span>&gt;</span></strong> a menor em tamaho comparada as outras(lembrando que nada empede de mudar o tamanho delas como bem desejar usando o CSS), como disse elas são responaveis pelos titulos da páginas mas nada as impede de ser usada como texto ou paragrafos. <br><br>Outra tag que podemos falar que você usara muito no cotidiano é a  <strong><span>&lt;</span><span>p</span><span>&gt;</span></strong>, ou seja a tag de paragrafo como dito anteriormente você pode sim usar as tag de titulo para a escrita de um texto mas você teria que mudar as caracteristicas delas usando o css e por isso temos a tag <strong><span>&lt;</span><span>p</span><span>&gt;</span></strong>, que facilita na edição de textos maiores por não precisar ser estilizada no CSS, como a tag de titulo você pode alternar sua serventia usando-a para outros fins como o propio titulo.</p>
 
@@ -127,15 +149,321 @@
             o CSS é usado na incorporação do HTML, com o CSS você pode estilizar e criar imagens
             realmente profissionais, mas oqué significa a palavra CSS afinal de contas, bem o CSS
             vem do inglês Cascading Style Sheets que, traduzido para o português, significa Folha
-            de Estilo em Cascatas.
-            Vamos mostrar agora um exemplo de comando em CSS :</p>
+            de Estilo em Cascatas.<br><br>
+            Vamos mostrar agora um exemplo de comando em CSS :</p><br>
         </div>
         <div class="code-area">
             <div class="pre_xml">
         <div>
-            <pre style="white-space:pre;" class="line-numbers pre_xml"><code class="pre_xml"><span class="tag-nozel01">*</span><span class="tag-nozel02">{</span><br><span class="tag-nozel03">margin:</span><span class="tag-nozel04"> 0 auto;</span><br><span class="tag-nozel03">padding:</span><span class="tag-nozel04"> 0 auto;</span><br><span class="tag-nozel02">}</span>
-                <span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span></span></span></code></pre></div><!--Colocando Span na area de class="line-numbers-rows" aumentará o numero das linhas-->
+            <pre style="white-space:pre;" class="line-numbers pre_xml"><code class="pre_xml"><span class="tag-nozel01">*</span><span class="tag-nozel02">{</span><br><span class="tag-nozel03">margin:</span><span class="tag-nozel04"> 0 auto;</span><br><span class="tag-nozel03">padding:</span><span class="tag-nozel04"> 0 auto;</span><br><span class="tag-nozel02">}</span><br><br><span class="tag-nozel02">.cabecalho p {</span><br><span class="tag-nozel03">color:</span><span class="tag-nozel04">#555;</span><br><span class="tag-nozel02"></span><span class="tag-nozel02">}</span>
+                <span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></span></code></pre></div><!--Colocando Span na area de class="line-numbers-rows" aumentará o numero das linhas-->
         </div>
+        </div>
+    </div>
+    <div class="tag_css">
+        <h1 class="nome00">Tags e listas do CSS</h1>
+        <div class="linha01 night-mode-available"></div>
+        <div class="entry clear-block">
+            <table border="1" cellspacing="2" cellpadding="1">
+    <tbody>
+    <tr>
+    <th>atributo de css</th>
+    <th>o que ele configura</th>
+    </tr>
+    <tr>
+    <td>background</td>
+    <td>cor de fundo, imagem, transparência.</td>
+    </tr>
+    <tr>
+    <td>background-attachment  </td>
+    <td>rolagem do fundo / marca d’água.</td>
+    </tr>
+    <tr>
+    <td>background-image</td>
+    <td>imagem de fundo.</td>
+    </tr>
+    <tr>
+    <td>background-color</td>
+    <td>cor de fundo ou transparência.</td>
+    </tr>
+    <tr>
+    <td>background-position</td>
+    <td>posicionamento da imagem de fundo.</td>
+    </tr>
+    <tr>
+    <td>background-repeat</td>
+    <td>configuração lado-a-lado da imagem de fundo.</td>
+    </tr>
+    <tr>
+    <td>border</td>
+    <td>largura, estilo e cor de todas as 4 bordas.</td>
+    </tr>
+    <tr>
+    <td>border-bottom</td>
+    <td>largura, estilo e cor da borda inferior.</td>
+    </tr>
+    <tr>
+    <td>border-bottom-color</td>
+    <td>cor da citada borda.</td>
+    </tr>
+    <tr>
+    <td>border-bottom-style</td>
+    <td>estilo da citada borda.</td>
+    </tr>
+    <tr>
+    <td>border-bottom-width</td>
+    <td>largura da citada borda.</td>
+    </tr>
+    <tr>
+    <td>border-color</td>
+    <td>cor das 4 bordas.</td>
+    </tr>
+    <tr>
+    <td>border-left</td>
+    <td>largura, estilo e cor da borda esquerda.</td>
+    </tr>
+    <tr>
+    <td>border-left-color</td>
+    <td>cor da borda citada.</td>
+    </tr>
+    <tr>
+    <td>border-left-style</td>
+    <td>estilo da borda citada.</td>
+    </tr>
+    <tr>
+    <td>border-left-width</td>
+    <td>largura da borda citada.</td>
+    </tr>
+    <tr>
+    <td>border-right</td>
+    <td>largura, estilo e cor da borda direita.</td>
+    </tr>
+    <tr>
+    <td>border-right-color</td>
+    <td>cor da borda citada.</td>
+    </tr>
+    <tr>
+    <td>border-right-style</td>
+    <td>estilo da borda citada.</td>
+    </tr>
+    <tr>
+    <td>border-right-width</td>
+    <td>largura da borda citada.</td>
+    </tr>
+    <tr>
+    <td>border-style</td>
+    <td>estilo de todas as 4 boras.</td>
+    </tr>
+    <tr>
+    <td>border-top</td>
+    <td>largura, estilo e cor da borda superior.</td>
+    </tr>
+    <tr>
+    <td>border-top-color</td>
+    <td>cor da borda citada.</td>
+    </tr>
+    <tr>
+    <td>border-top-style</td>
+    <td>estilo da borda citada.</td>
+    </tr>
+    <tr>
+    <td>border-top-width</td>
+    <td>largura da borda citada.</td>
+    </tr>
+    <tr>
+    <td>border-width</td>
+    <td>largura de todas as 4 bordas.</td>
+    </tr>
+    <tr>
+    <td>clear</td>
+    <td>elementos flutuantes à esquerda ou à direita de um elemento.</td>
+    </tr>
+    <tr>
+    <td>clip</td>
+    <td>parte visível de um elemento.</td>
+    </tr>
+    <tr>
+    <td>color</td>
+    <td>cor de primeiro plano.</td>
+    </tr>
+    <tr>
+    <td>cursor</td>
+    <td>tipo de ponteiro do mouse.</td>
+    </tr>
+    <tr>
+    <td>display</td>
+    <td>se o elemento é exibido e o espaço é reservado para ele.</td>
+    </tr>
+    <tr>
+    <td>filter</td>
+    <td>tipo de filtro aplicado ao elemento.</td>
+    </tr>
+    <tr>
+    <td>float</td>
+    <td>se o elemento flutua.</td>
+    </tr>
+    <tr>
+    <td>font</td>
+    <td>estilo, variante, peso, tamanho e altura da linha do tipo de fonte.</td>
+    </tr>
+    <tr>
+    <td>font-face</td>
+    <td>incorporação da fonte ao arquivo html.</td>
+    </tr>
+    <tr>
+    <td>font-family</td>
+    <td>tipo de fonte.</td>
+    </tr>
+    <tr>
+    <td>font-size</td>
+    <td>tamanho da fonte.</td>
+    </tr>
+    <tr>
+    <td>font-style</td>
+    <td>fonte itálico.</td>
+    </tr>
+    <tr>
+    <td>fonte-variant</td>
+    <td>fonte bold.</td>
+    </tr>
+    <tr>
+    <td>font-weight</td>
+    <td>peso da fonte de claro a negrito.</td>
+    </tr>
+    <tr>
+    <td>height</td>
+    <td>altura exibida ao elemento.</td>
+    </tr>
+    <tr>
+    <td>import</td>
+    <td>folha de estilo a importar.</td>
+    </tr>
+    <tr>
+    <td>left</td>
+    <td>posição do elemento em relação a margem esquerda da página.</td>
+    </tr>
+    <tr>
+    <td>letter-spacing</td>
+    <td>distância entre as letras.</td>
+    </tr>
+    <tr>
+    <td>line-height</td>
+    <td>distância entre linhas de base.</td>
+    </tr>
+    <tr>
+    <td>list-style</td>
+    <td>tipo, imagem e posição do estilo da lista.</td>
+    </tr>
+    <tr>
+    <td>list-style-image</td>
+    <td>marcador de item de lista.</td>
+    </tr>
+    <tr>
+    <td>list-style-position</td>
+    <td>posição do marcador de item da lista.</td>
+    </tr>
+    <tr>
+    <td>list-style-type</td>
+    <td>marcador de item de lista alternativo.</td>
+    </tr>
+    <tr>
+    <td>margin</td>
+    <td>tamanho de todas as 4 margens.</td>
+    </tr>
+    <tr>
+    <td>margin-left</td>
+    <td>tamanho da margem esquerda.</td>
+    </tr>
+    <tr>
+    <td>margin-right</td>
+    <td>tamanho da margem direita.</td>
+    </tr>
+    <tr>
+    <td>margin-bottom</td>
+    <td>tamanho da margem inferior.</td>
+    </tr>
+    <tr>
+    <td>margin-top</td>
+    <td>tamanho da margem superior.</td>
+    </tr>
+    <tr>
+    <td>overflow</td>
+    <td>exibição de imagens que são maiores do que suas molduras.</td>
+    </tr>
+    <tr>
+    <td>padding</td>
+    <td>espaço em torno de um elemento em todos os lados.</td>
+    </tr>
+    <tr>
+    <td>padding-bottom</td>
+    <td>espaço a partir da margem inferior de um elemento.</td>
+    </tr>
+    <tr>
+    <td>padding-left</td>
+    <td>espaço à esquerda do elemento.</td>
+    </tr>
+    <tr>
+    <td>padding-right</td>
+    <td>espaço à direita do elemento.</td>
+    </tr>
+    <tr>
+    <td>padding-top</td>
+    <td>espaço a partir da margem superior do elemento.</td>
+    </tr>
+    <tr>
+    <td>page-break-after</td>
+    <td>inserir quebra de página depois de um elemento.</td>
+    </tr>
+    <tr>
+    <td>page-break-before</td>
+    <td>inserir quebra de página antes de um elemento.</td>
+    </tr>
+    <tr>
+    <td>position</td>
+    <td>como o elemento é posicionado na página.</td>
+    </tr>
+    <tr>
+    <td>text-align</td>
+    <td>alinhamento do texto.</td>
+    </tr>
+    <tr>
+    <td>text-decoration</td>
+    <td>sublinhado, sobrelinhado ou riscado.</td>
+    </tr>
+    <tr>
+    <td>text-indent</td>
+    <td>recuo da primeira linha do parágrafo.</td>
+    </tr>
+    <tr>
+    <td>text-transform</td>
+    <td>transformação para todas maiúsculas, minúsculas ou inicial maiúscula.</td>
+    </tr>
+    <tr>
+    <td>top</td>
+    <td>posição do elemento em relação a parte superior da página.</td>
+    </tr>
+    <tr>
+    <td>vertical-align</td>
+    <td>alinhamento vertical do elemento.</td>
+    </tr>
+    <tr>
+    <td>visibility</td>
+    <td>se elemento é visível ou invisível.</td>
+    </tr>
+    <tr>
+    <td>width</td>
+    <td>largura do elemento.</td>
+    </tr>
+    <tr>
+    <td>z-index</td>
+    <td>posição do elemento na pilha.</td>
+    </tr>
+    </tbody>
+    </table>
+   
+    <p>FONTE:<a href="http://www.creativehost.com.br/suporte/css.php">http://www.creativehost.com.br/suporte/css.php</a></p>
+
+    </div>
 </main>
 <footer>
 
