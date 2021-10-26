@@ -644,3 +644,13 @@ pre[class*="pre_"].numbers > code {
   margin-top: 12px;
 }
 
+
+.tags_nome{
+  font-family: sans-serif;
+  text-indent: 1.0em;
+  font-size: 22pt;
+  font-weight:inherit;
+  width: 90%;
+  margin-left: 4%;
+  text-align: justify;
+}
