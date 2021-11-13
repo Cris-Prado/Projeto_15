@@ -207,4 +207,13 @@ html {
   }
 }
 
+@keyframes anim-shadow {
+    to {
+      box-shadow: 0px 0px 70px 25px;
+      opacity: 0;
+    }
+  }
 
+
+
+ 
