@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Rubik&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/css/all.min.css" integrity="sha512-c93ifPoTvMdEJH/rKIcBx//AL1znq9+4/RmMGafI/vnTFe/dKwnn1uoeszE2zJBQTS1Ck5CqSBE+34ng2PthJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://kit.fontawesome.com/af562a2a63.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/Pag/Contato/contato.css">
+    <title>Fantasmas Codes</title>
+</head>
+<body class="corpo night-mode-available">
+<header>
+    <nav class="navbar">
+        <div class='container'>
+            <div class="menu-content">
+                <label class="open-menu-all" for="open-menu-all">
+                <input class="input-menu-all" id="open-menu-all" type="checkbox" name="menu-open" />
+                <div class="navegacao-mobile">
+                    <div class="linha-menu"></div>
+                    <div class="linha-menu"></div>
+                    <div class="linha-menu"></div>
+                  </div>
+                <ul class="list-menu night-mode-available ">
+                    <a href="/" class="item-menus night-mode-available " ><p><i class='bx bxs-ghost'></i>Fantasma Codes</p></a>
+                    <li class="item-menu night-mode-available">
+                        <a href="/" target="_blank" class="link-menu">Inicio</a>
+                    </li>
+                    <li class="item-menu night-mode-available">
+                        <a href="/" target="_blank" class="link-menu">Sobre</a>
+                    </li>
+                    <li class="item-menu night-mode-available">
+                        <a href="/" target="_blank" class="link-menu">Contato</a>
+                    </li>
+                    <li class="item-menu night-mode-available">
+                        <a href="/" target="_blank" class="link-menu">Suporte</a>
+                    </li>
+                    <li class="item-menu night-mode-available">
+                        <a href="/Pag/Entrar/login.html" target="_blank" class="link-menu">Entrar</a>
+                    </li>
+                    <div class="item-menu night-mode-available">
+                        <div class="night-mode-button">
+                            <input type="checkbox" class="checkbox" id="night-mode">
+                            <label for="night-mode" class="label">
+                                <i class="fas fa-moon"></i>
+                                <i class="fas fa-sun"></i>
+                                <div class="blob"></div>
+                            </label>
+                        </div>
+                    </ul>
+                </label>
+            </div>
+        </div>
+    </nav>
+</header>
+<main class="main night-mode-available">
+    <div class="cabecalho">
+        <br><br>
+        <div class="foto">
+            <img src="/IMG/Chis.png" alt="Cristiano" class="foto">
+            
+        </div>
+    </div>
+</main>
+<script type="text/javascript">
+    document.querySelector('.checkbox').addEventListener('change',()=>{
+        document.querySelectorAll('.night-mode-available').forEach(ele=>{
+            ele.classList.toggle('night')
+        })
+    });
+</script>
+</body>
+</html>

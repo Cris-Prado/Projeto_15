@@ -685,3 +685,15 @@ pre[class*="pre_"].numbers > code {
   margin-top: 15px;
 }
 
+.contato02{
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 15pt;
+  font-weight:lighter;
+  color: white;
+  margin-left: 30px;
+  margin-top: 15px;
+}
+
+.comment-text{
+  margin-left: 30px;
+}
