@@ -202,8 +202,11 @@
   }
 
 .foto {
-    width: 45%;
-    height: 35vh;
+    width: 20%;
     border-radius: 120%;
     margin-left: 10px;
+}
+
+.perfil{
+    float: left;
 }
