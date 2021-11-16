@@ -706,7 +706,7 @@ pre[class*="pre_"].numbers > code {
 }
 
 .comment-text{
-  margin-left: 30px;
+  margin-left: 20px;
   background: rgb(228, 216, 238);
   border-radius: 15px;
   padding-left: 15px;
