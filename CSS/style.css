@@ -703,7 +703,6 @@ pre[class*="pre_"].numbers > code {
   color: white;
   margin-left: 30px;
   margin-top: 15px;
-  text-align: center;
 }
 
 .comment-text{
@@ -738,6 +737,3 @@ pre[class*="pre_"].numbers > code {
   margin-top: 15px;
 }
 
-.comments{
-  text-align: center;
-}
