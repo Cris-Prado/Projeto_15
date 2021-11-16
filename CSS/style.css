@@ -721,7 +721,7 @@ pre[class*="pre_"].numbers > code {
   color: black;
   background: linear-gradient(#fff, #ccc, rgb(81, 211, 243), #25fd);
   text-align: center;
-  margin-left: 2%;
+  margin-left: 12%;
   margin-top: 15px;
   border-radius: 15px;
   padding: 2px 2px 2px 2px;
