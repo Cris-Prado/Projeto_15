@@ -199,4 +199,4 @@ const slideData = [
   }
   
   
-  ReactDOM.render(<Slider heading="Example Slider" slides={slideData} />, document.getElementById('app'));
+ReactDOM.render(<Slider heading="Example Slider" slides={slideData} />, document.getElementById('app'));
